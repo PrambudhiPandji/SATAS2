@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Tables</title>
+    <title>SATAS - INVENTORI</title>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -315,13 +315,152 @@
                     <h1 class="h3 mb-2 text-gray-800">Data Inventori Komputer</h1>
                     <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
                         For more information about DataTables, please visit the</p>
-                    <button href="tamKomputer" class="btn btn-primary float-right btn2">Tambah
-                        Data</button>
+                    <a type="button" href="tamkomputer" class="btn btn-primary float-right btn2">Tambah
+                        Data</a>
                     <button type="button" class="btn btn-primary float-right">Tambah Peminjaman</button>
                     <br><br>
                 </div>
                 <!-- Akhir Tambah Data -->
 
+                <!-- Tambah Data -->
+                <div class="card shadow mb-4 mr-4 ml-4">
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Data Komputer</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Code</th>
+                                            <th>Jenis</th>
+                                            <th>Merk</th>
+                                            <th>Asal Perangkat</th>
+                                            <th>Tahun Masuk</th>
+                                            <th>Stasus</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>K-01-001</td>
+                                            <td>Komputer</td>
+                                            <td>Asus</td>
+                                            <td>Dana BOS</td>
+                                            <td>2020</td>
+                                            <td class="btn-outline-success">Aktif</td>
+                                            <td>
+                                                <ul class="list-inline m-0">
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-success btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Edit"><i
+                                                                class="fa fa-edit"></i></button>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-danger btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                                                class="fa fa-trash"></i></button>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>K-01-002</td>
+                                            <td>Komputer</td>
+                                            <td>Asus</td>
+                                            <td>Dana BOS</td>
+                                            <td>2020</td>
+                                            <td class="btn-outline-success">Aktif</td>
+                                            <td>
+                                                <ul class="list-inline m-0">
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-success btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Edit"><i
+                                                                class="fa fa-edit"></i></button>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-danger btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                                                class="fa fa-trash"></i></button>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>K-01-003</td>
+                                            <td>Komputer</td>
+                                            <td>Asus</td>
+                                            <td>Dana BOS</td>
+                                            <td>2020</td>
+                                            <td class="btn-outline-danger">Rusak</td>
+                                            <td>
+                                                <ul class="list-inline m-0">
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-success btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Edit"><i
+                                                                class="fa fa-edit"></i></button>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-danger btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                                                class="fa fa-trash"></i></button>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>K-01-004</td>
+                                            <td>Komputer</td>
+                                            <td>Asus</td>
+                                            <td>Dana BOS</td>
+                                            <td>2020</td>
+                                            <td class="btn-outline-danger">Rusak</td>
+                                            <td>
+                                                <ul class="list-inline m-0">
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-success btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Edit"><i
+                                                                class="fa fa-edit"></i></button>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-danger btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                                                class="fa fa-trash"></i></button>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>K-01-005</td>
+                                            <td>Komputer</td>
+                                            <td>Asus</td>
+                                            <td>Dana BOS</td>
+                                            <td>2020</td>
+                                            <td class="btn-outline-success">Aktif</td>
+                                            <td>
+                                                <ul class="list-inline m-0">
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-success btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Edit"><i
+                                                                class="fa fa-edit"></i></button>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <button class="btn btn-danger btn-sm rounded-0" type="button"
+                                                            data-toggle="tooltip" data-placement="top" title="Delete"><i
+                                                                class="fa fa-trash"></i></button>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                 <!-- /.container-fluid -->
 
             </div>
