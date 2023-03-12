@@ -18,6 +18,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/inventori', function () {
+    return view('inventori');
+});
+
+Route::get('/dafkomputer', function () {
+    return view('dafKomputer');
+});
+
+Route::get('/tamkomputer', function () {
+    return view('tamKomputer');
+});
+
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::get('/dashboard', function () {
     return Auth::user()->roles()->first()->name =='admin' ? view('dashboard') : view('dashboard1');
 })->middleware(['auth', 'verified'])->name('dashboard');
