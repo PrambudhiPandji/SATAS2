@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Tables</title>
+    <title>SATAS - INVENTORI</title>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -308,51 +308,60 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Data Inventori Komputer</h1>
+                    <h1 class="h3 text-gray-800">Data Inventori Komputer</h1>
                     <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
                         For more information about DataTables, please visit the</p>
-                    <button id="btnTambah" class="btn btn-primary float-right btn2">Tambah
-                        Data</button>
-                    <button type="button" class="btn btn-primary float-right">Tambah Peminjaman</button>
-                    <br><br>
                 </div>
                 <!-- Akhir Tambah Data -->
 
                 <!-- Tambah Data -->
-                <div class="card shadow mb-4">
+                <div class="card shadow mb-4 mr-4 ml-4">
                     <div class="card-body">
-                        <form id="tabelTambah" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-                            <h2 class="intro-y text-lg font-medium mr-auto mt-2">Tambah Kopetensi</h2><br>
-                            <div class="mb-4">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="name@example.com">
-                            </div>
-                            <div class="mb-4">
-                                <label for="exampleFormControlSelect1">Example select</label>
-                                <select class="form-control" id="exampleFormControlSelect1">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </select>
-                            </div>
-                            <div class="mb-4">
-                                <label for="exampleFormControlSelect2">Example multiple select</label>
-                                <select multiple class="form-control" id="exampleFormControlSelect2">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </select>
-                            </div>
-                            <div class="mb-4">
-                                <label for="exampleFormControlTextarea1">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                        </form>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" width="100%" cellspacing="0">
+                                <form id="tabelTambah" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                                    <h2 class="intro-y text-lg font-medium mr-auto mt-2">Tambah Data Perangkat</h2><br>
+                                    <div class="mb-4">
+                                        <label for="exampleFormControlInput1">Code</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="K-01-001">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="exampleFormControlSelect1">Jenis Perangkat</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Komputer</option>
+                                            <option>Tablet</option>
+                                            <option>Chrome Book</option>
+                                            <option>Perangkat</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="exampleFormControlInput1">Merk</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Asus">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="exampleFormControlInput1">Asal Perangkat</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="Dana BOS">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="exampleFormControlInput1">Tahun Masuk</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="2020">
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="exampleFormControlSelect1">Status Perangkat</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>Aktif</option>
+                                            <option>Rusak</option>
+                                        </select>
+                                    </div>
+                                    <a type="button" href="dafkomputer" class="btn btn-primary float-right btn2">Tambah Data</a>
+                                </form>
+                            </table>
+                        </div>
+
                     </div>
                 </div>
                 <!-- /.container-fluid -->
